@@ -25,15 +25,20 @@
 
 # 데이터베이스 복제 및 생성
 ![image](https://github.com/user-attachments/assets/9111496d-dae7-4ed6-9430-bfe638fdbfe0)
-![image](https://github.com/user-attachments/assets/7a269466-a407-4553-85ba-632da329fc60)
 * 고객사 별로 데이터베이스를 생성하여 데이터 로딩의 간결화 및 고객사 별 데이터가 섞이지 않아 고객사간 버그나 오류로 인해 정보 누출의 우려 방지
+
+![image](https://github.com/user-attachments/assets/7a269466-a407-4553-85ba-632da329fc60)
+* 로그를 출력하여 DB간 전환이 원할하게 이루어지는지 확인
 
 #  이메일 - 계정 전송
 ![image](https://github.com/user-attachments/assets/41f7d9fb-3f64-4449-9c19-7ca87ad40f90)
 * 관리자가 회원가입 승인을 했다면, 회원가입 시 입력한 고객사 이메일로 본사 및 요청한 점포 수 만큼의 계정을 발급하여 전송
+
 ![image](https://github.com/user-attachments/assets/3f229f49-cf70-4128-9f13-9a67a4cf862a)
-* 고객사의 계정 추가 요청 시, 추가 발급이 가능한 기능 구현
 ![image](https://github.com/user-attachments/assets/35ebbb40-f441-4a1e-9cbf-6a39bfb7349e)
+* 고객사의 계정 추가 요청 시, 추가 발급이 가능한 기능 구현
+
+![image](https://github.com/user-attachments/assets/692ee43e-00ae-4dcf-aca9-2852a0d4388d)
 * DB에 정상적으로 추가된 것을 확인
 
 # 매장 정보 수정 및 관리
